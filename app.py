@@ -75,4 +75,5 @@ def logout():
     session.pop('email',None)
     return redirect('/login')
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
