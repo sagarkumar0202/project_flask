@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request, flash
 from werkzeug.utils import secure_filename
-import cv2
-import os
 from flask import Flask, request,render_template, redirect,session
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
